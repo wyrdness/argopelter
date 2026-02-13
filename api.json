@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/argopelter",
     "maintainers": [
       {
@@ -18,140 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "argopelter",
     "name": "Argopelter",
     "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
+    "subcategory": "Unknown",
     "tags": [
-      "fearsome-critter",
-      "lumberjack-folklore",
-      "tree-dwelling",
-      "wood-thrower",
-      "aggressive",
-      "humorous",
-      "tall-tale"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "An aggressive tree-dwelling creature that hurls dead branches and wood at lumberjacks from the forest canopy, more violent than its cousin the Agropelter.",
-      "full": "The Argopelter is a variant or cousin of the Agropelter, distinguished by its more aggressive and targeted attacks on lumberjacks. Living in the forest canopy, this creature specifically targets workers with barrages of dead branches, limbs, and chunks of wood. Unlike the Agropelter which throws at any passerby, the Argopelter has particular hatred for lumberjacks and loggers, perhaps in retaliation for cutting down its forest home. The creature is rarely if ever seen, known only by the sudden assault of falling wood that seems too directed to be accidental. Like many fearsome critters, it provided a humorous explanation for the genuine hazard of widow-makers (falling dead branches)."
+      "summary": "The Argopelter is a more aggressive variant of the Agropelter, distinguished by its specific targeting of lumberjacks and loggers.",
+      "full": "The Argopelter is a more aggressive variant of the Agropelter, distinguished by its specific targeting of lumberjacks and loggers. While the Agropelter throws wood at any passerby, the Argopelter has a particular grudge against those who cut down trees. Living in the forest canopy, this rarely-seen creature hurls dead branches, limbs, and chunks of wood at logging crews with apparent intent and malice. The attacks seem too directed and frequent to be accidental falling debris, suggesting an intelligence behind the assault."
     },
     "etymology": {
-      "origin": "American lumberjack folklore, early 20th century",
-      "meaning": "Variant spelling of Agropelter; 'pelter' meaning one who pelts/throws",
-      "first_use": "circa 1910"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Fearsome Critter",
-      "subtype": "Tree-dwelling",
-      "variant": "Aggressive Wood-thrower"
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "agropelter",
-        "name": "Agropelter",
-        "relationship": "variant",
-        "description": "Less aggressive variant that throws wood at any passerby"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size": "Unknown, rarely seen",
-      "coloration": ["unknown"],
-      "features": [
-        {
-          "feature": "Tree-dwelling",
-          "description": "Lives in forest canopy",
-          "frequency": "always"
-        },
-        {
-          "feature": "Elusive nature",
-          "description": "Rarely or never clearly observed",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Largely unknown due to elusiveness"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Branch throwing",
-        "description": "Hurls dead branches and wood with force and accuracy at lumberjacks",
-        "frequency": "constant",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Targeting",
-        "description": "Specifically aims at lumberjacks rather than random passersby",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "aggressive, particularly toward lumberjacks",
-      "social_structure": "solitary",
-      "habitat_preference": ["forest canopy", "logging areas"],
-      "diet": "Unknown",
-      "patterns": [
-        "Lives in tree canopy",
-        "Targets lumberjacks specifically",
-        "Throws dead branches aggressively",
-        "Motivated by apparent revenge for tree-cutting"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Lumber regions and logging territories",
-      "continents": ["North America"],
-      "countries": ["United States", "Canada"],
-      "regions": ["Active logging areas", "Lumber territories"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1910",
+        "date": "Unknown",
         "circa": true,
-        "source": "Lumberjack tall tale collections"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "American occupational folklore from lumber camps",
-      "folklore_connections": "Variant of Agropelter with added motivation (revenge against loggers)"
-    }
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": ["Lumberjack tall tales"],
-      "beliefs": "Explained widow-maker hazard as revenge from forest-dwelling creature; added element of forest fighting back against logging"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "cox-1910",
-      "type": "book",
-      "title": "Fearsome Creatures of the Lumberwoods",
-      "authors": ["William T. Cox"],
-      "date": "1910"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
