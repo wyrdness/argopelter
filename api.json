@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/argopelter",
     "maintainers": [
       {
@@ -16,111 +16,215 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "argopelter",
     "name": "Argopelter",
-    "aliases": [],
+    "aliases": [
+      { "name": "Agropelter", "region": "North American lumber camps", "meaning": "Original spelling used by William T. Cox (1910)" },
+      { "name": "Anthrocephalus craniofractens", "meaning": "Mock-Latin binomial coined by William T. Cox" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter (lumberjack folklore)",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "tall-tale",
+      "north-america",
+      "logging-camp",
+      "humorous"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Argopelter is a more aggressive variant of the Agropelter, distinguished by its specific targeting of lumberjacks and loggers.",
-      "full": "The Argopelter is a more aggressive variant of the Agropelter, distinguished by its specific targeting of lumberjacks and loggers. While the Agropelter throws wood at any passerby, the Argopelter has a particular grudge against those who cut down trees. Living in the forest canopy, this rarely-seen creature hurls dead branches, limbs, and chunks of wood at logging crews with apparent intent and malice. The attacks seem too directed and frequent to be accidental falling debris, suggesting an intelligence behind the assault."
+      "summary": "A fearsome critter of North American lumberjack folklore — a slender, ape-like beast said to dwell in hollow trees of the conifer woods and to hurl branches and wood splinters at passing humans.",
+      "full": "The Argopelter (also spelled Agropelter) is one of the so-called 'fearsome critters' of early-20th-century North American lumber-camp folklore. Documented most prominently in William T. Cox's Fearsome Creatures of the Lumberwoods (1910), the Argopelter was said to inhabit hollow trees in the coniferous forests stretching from Maine through the Great Lakes region and across to Oregon. The creature was described by Cox as having a slender, wiry body, the face of an ape, and arms 'like muscular whiplashes' which it used to snap off dead branches and hurl them with great force at intruders. Like other fearsome critters, the Argopelter served as a humorous folk explanation for hazards of the working forest — falling branches, mysterious injuries, and odd noises in the woods — and was often invoked to haze new lumberjacks. The Argopelter was reprinted and elaborated in Henry H. Tryon's Fearsome Critters (1939) and remains one of the more frequently cited members of the lumber-woods bestiary."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by William T. Cox in Fearsome Creatures of the Lumberwoods (1910); the prefix 'agro-' or 'argo-' is fanciful, while 'pelter' denotes the creature's habit of pelting passersby with wood.",
+      "meaning": "Roughly 'one that pelts'; mock binomial Anthrocephalus craniofractens may be glossed 'human-headed skull-breaker'.",
+      "first_use": "1910 (William T. Cox)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Arboreal humanoid (folkloric)",
+      "variant": "North American lumber-woods"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "fearsome-critters", "name": "Fearsome critters", "relationship": "superset", "description": "The broader class of humorous folk-creatures of the North American lumber camps" },
+      { "id": "hodag", "name": "Hodag", "relationship": "similar", "description": "Wisconsin fearsome critter" },
+      { "id": "axehandle-hound", "name": "Axehandle hound", "relationship": "similar", "description": "Minnesota/Wisconsin fearsome critter" },
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Lumber-woods fearsome critter that hides behind trees" },
+      { "id": "splintercat", "name": "Splintercat", "relationship": "similar", "description": "Fearsome critter that smashes through trees" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Slender, wiry body", "description": "Cox describes a 'slender, wiry body'", "frequency": "always" },
+        { "feature": "Ape-like face", "description": "Cox: 'the villainous face of an ape'", "frequency": "always" },
+        { "feature": "Whiplash-like arms", "description": "Arms described as 'like muscular whiplashes' capable of snapping off dead branches and hurling them", "frequency": "always" },
+        { "feature": "Hollow-tree habitat", "description": "Said to dwell inside hollow trees in deep conifer forest", "frequency": "always" }
+      ],
+      "morphology": "A folkloric, gracile primate-like form whose anatomy is calibrated to the central narrative motif: a creature optimised for hurling tree limbs at passersby."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Branch-throwing", "description": "Hurls dead branches and wood splinters at intruders 'like shells from a six-inch gun' (Cox 1910)", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Concealment in hollow trees", "description": "Lurks unseen inside the trunks of hollow conifers", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["coniferous forest", "hollow trees", "remote logging country"],
+      "diet": "Not specified in source material",
+      "patterns": [
+        "Stays concealed until a target passes",
+        "Throws limbs and splinters with extreme force",
+        "Used in lumber-camp banter to 'explain' falling branches and accidental injuries"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Said by Cox (1910) to inhabit the coniferous forests of North America from Maine to Oregon, with the densest reporting in the Great Lakes / Upper Midwest lumber region.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "Maine",
+        "Upper Midwest (Wisconsin, Minnesota, Michigan)",
+        "Pacific Northwest (Oregon, Washington)",
+        "Boreal and northern conifer forests"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910-01-01",
+        "circa": false,
+        "source": "William T. Cox, Fearsome Creatures of the Lumberwoods (1910)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 19th to early 20th century", "description": "Active oral tradition in North American lumber camps during the height of the logging boom" }
+      ],
+      "seasonal_patterns": "Most active during the logging season; used to explain branch-fall hazards in working forests."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late-19th- and early-20th-century North American lumber-camp oral tradition. Lumberjacks, who travelled between camps across the continent, swapped these humorous tales as a means of hazing newcomers and explaining everyday forest hazards.",
+      "earliest_accounts": "First published account: William T. Cox, Fearsome Creatures of the Lumberwoods (Judd & Detweiler, Washington, D.C., 1910).",
+      "folklore_connections": "Belongs to the class of 'fearsome critters' alongside the hodag, splintercat, hidebehind, axehandle hound, and squonk."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-01-01", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods, including the Argopelter", "significance": "First print attestation", "source": "Cox, W. T. (1910)" },
+      { "date": "1939-01-01", "event": "Henry H. Tryon's Fearsome Critters reprints and elaborates lumber-woods bestiary", "significance": "Carries the Argopelter into mid-20th-century folkloric literature", "source": "Tryon, H. H. (1939)" }
+    ],
+    "modern_era": "The Argopelter survives chiefly as a curiosity in compendiums of American folklore and cryptozoology. It has been reprinted in modern editions of Cox's and Tryon's books and features in recent illustrated guides such as Hal Johnson's Fearsome Creatures of the Lumberwoods (2015)."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1910", "latest": "1939" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "argopelter-evidence-cox-1910",
+        "type": "book entry",
+        "name": "Fearsome Creatures of the Lumberwoods",
+        "date": "1910",
+        "description": "Original published account of the Argopelter, including the often-quoted description of 'a slender, wiry body, the villainous face of an ape, and arms like muscular whiplashes'.",
+        "status": "unverified",
+        "analysis": "Folkloric source — humorous tall tale rather than evidentiary report.",
+        "source": "Cox, W. T. (1910)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Folkloric tall tale (occupational folklore)",
+        "description": "Mainstream folkloric view: the Argopelter is a humorous occupational folk creature invented by lumberjacks to explain forest hazards, haze newcomers, and entertain in the camp.",
+        "proponents": ["Richard Dorson", "Charles E. Brown", "Vance Randolph"],
+        "evidence_cited": ["Belongs to the documented genre of fearsome critters", "No witness accounts presented by Cox or Tryon as actual sightings"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural-explanation hypothesis for forest hazards",
+        "description": "The Argopelter, like other fearsome critters, mythologises real hazards of working in dense conifer forest — particularly the 'widowmaker' branches that fall unpredictably from old-growth trees.",
+        "proponents": ["Folkloric scholarship of lumberjack narrative tradition"],
+        "evidence_cited": ["Real prevalence of falling-branch injuries in logging operations", "Use of fearsome critters as initiation humour"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Oral tradition of the North American lumber camps",
+        "Hazing of new lumberjacks ('greenhorns') with tall tales of fearsome critters"
+      ],
+      "stories": [
+        "The classic Cox (1910) entry on the Argopelter",
+        "Tryon (1939) elaboration of fearsome critters"
+      ],
+      "beliefs": "The Argopelter was understood as a humorous fiction even by its tellers; fearsome critters served social functions of bonding and explanation rather than belief."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods — William T. Cox (1910)",
+        "Fearsome Critters — Henry H. Tryon (1939)",
+        "Fearsome Creatures of the Lumberwoods: 20 Chilling Tales from the Wilderness — Hal Johnson (2015)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Modern reprints, podcasts, and folklore-focused YouTube series referencing the lumber-camp bestiary"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester (early 20th c.)", "contribution": "Author of Fearsome Creatures of the Lumberwoods (1910), the founding compendium for the Argopelter and other fearsome critters", "period": "1910" },
+      { "name": "Henry H. Tryon", "affiliation": "Black Rock Forest, NY", "contribution": "Author of Fearsome Critters (1939), an illustrated reprise of the lumber-woods bestiary", "period": "1939" },
+      { "name": "Charles E. Brown", "affiliation": "Wisconsin Folklore Society / State Historical Society of Wisconsin", "contribution": "Documented Paul Bunyan and lumberjack folklore in the 1920s–1940s", "period": "1920s–1940s" },
+      { "name": "Hal Johnson", "affiliation": "Independent author/illustrator", "contribution": "Modern illustrated edition (2015)", "period": "2010s" }
+    ],
+    "organizations": [
+      { "name": "American Folklore Society", "url": "https://americanfolkloresociety.org", "focus": "Academic study of American folklore including occupational tall-tale traditions" }
+    ],
+    "ongoing_studies": "Active interest in occupational folklore continues in folkloristics; the fearsome critters are routinely surveyed in studies of North American working-class oral tradition."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press", "date": "1939" },
+    { "id": "johnson-2015", "type": "book", "title": "Fearsome Creatures of the Lumberwoods: 20 Chilling Tales from the Wilderness", "authors": ["Hal Johnson"], "publication": "Workman Publishing", "date": "2015", "isbn": "978-0761183181" },
+    { "id": "wikipedia-fearsome-critters", "type": "website", "title": "Fearsome critters", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" }
+  ]
 }
